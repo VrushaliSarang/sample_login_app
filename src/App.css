@@ -11,6 +11,7 @@
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: hsl(0, 100%, 100%);
+  padding: 0.5rem;
 }
 .App-header > nav > ul > li{
 list-style: none;
