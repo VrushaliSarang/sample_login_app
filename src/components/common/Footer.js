@@ -3,7 +3,7 @@ import { Component } from "react";
 class Footer extends Component{
 
     render(){
-        return (<footer className="App-footer">This is footer</footer>)
+        return (<footer className="App-footer">&copy;Sample copyright information</footer>)
     }
 }
 

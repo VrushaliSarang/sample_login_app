@@ -30,7 +30,7 @@ class Login extends Component{
                 />
              
               </div>
-              <input type="submit" value="Login" />
+              <input type="submit" value="Login" className="Form-btn" />
             </form>
             
           </div>

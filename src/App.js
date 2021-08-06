@@ -23,12 +23,12 @@ class  App extends Component {
   }
   handleLogin(event){
    
-      this.setState({ isLoggedIn:true,userid:this.inputUserId.current.value, password:this.inputPassword.current.value})
+      this.setState({ isLoggedIn:true,userId:this.inputUserId.current.value, password:this.inputPassword.current.value})
      
 
  }
  handleLogout(event){
-   this.setState({isLoggedIn :  false,
+   this.setState({isLoggedIn :  false, 
     userId: '',
     password:''})
  }

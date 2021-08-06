@@ -8,7 +8,7 @@ class Header extends Component {
       if(this.props.loggedin)
         linkText = "Logout"
     else
-        linkText = "Login"
+        linkText = ""
     return (
       <header className="App-header">
         <h1>Sample</h1>
